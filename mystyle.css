@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 6px;
+    padding: 30px;
 }
 
 #header {
@@ -16,8 +16,20 @@ body {
 
 .casellona {
     border: solid 2px black;
-    padding: 5px;
+    float: left;
     margin: 6px;
+}
+
+.titolo {
+    padding: 5px;
+    float: right;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+}
+
+.testo {
+    padding: 5px;
+    float: right;
 }
 
 
@@ -68,6 +80,9 @@ body {
     .col-lg-12 {
       width: 100%;
     }
+    body {
+      padding: 6px;
+    }
   }
   
   /********** Medium devices only **********/
@@ -110,5 +125,8 @@ body {
     }
     .col-md-12 {
       width: 100%;
+    }
+    body {
+      padding: 6px;
     }
   }
