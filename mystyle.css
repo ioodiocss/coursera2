@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 16px;
+    padding: 6px;
 }
 
 #header {
@@ -68,10 +68,6 @@ body {
     .col-lg-12 {
       width: 100%;
     }
-
-    body {
-      margin: 6px;
-    }
   }
   
   /********** Medium devices only **********/
@@ -114,8 +110,5 @@ body {
     }
     .col-md-12 {
       width: 100%;
-    }
-    body {
-      margin: 6px;
     }
   }
