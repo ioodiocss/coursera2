@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar {
+    background-color: cadetblue;
+}
+
+.navbar a {
+    color: black;
+}
+
+#navbar-menu-mio {
+    background-color: white;
+}
+
+#titolo-pagina {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*
+.row.no-gutter [class*='col-']:first-child:not(:only-child) {
+    padding-right: 10px;
+}
+.row.no-gutter [class*='col-']:last-child:not(:only-child) {
+    padding-left: 10px;
+}
+.row.no-gutter [class*='col-']:not(:first-child):not(:last-child):not(:only-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+*/
+
+.contenutone {
+    margin-bottom: 15px;
+}
+
+.contenutone div {
+    background-color: cadetblue;
+    height: 700px;
+    padding: 10px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    #contenitorone {
+        margin: 0px 50px;
+    }
+}
+
+
